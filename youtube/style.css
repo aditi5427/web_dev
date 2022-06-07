@@ -1,0 +1,318 @@
+body {
+    background-color: rgb(42, 42, 42);
+}
+
+.navbar {
+    display: flex;
+    margin: 20px;
+    
+}
+
+#logo {
+    margin-top: 5px;
+    margin-left: 40px;
+    height: 25px;
+    width: 35px;
+    cursor: pointer;
+}
+
+#logo2 {
+    margin-top: 5px;
+    height: 40px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+#line1 {
+    height: 15px;
+    width: 30px;
+}
+
+#text {
+    height: 35px;
+    width: 500px;
+    margin-left: 370px;
+    color: grey;
+    background-color: rgb(23, 23, 23);
+    border: 1px solid grey;
+    font-size: 1em;
+}
+
+#search {
+    cursor: pointer;
+    height: 37px;
+    width: 40px;
+    background-color: white;
+}
+#mice {
+    cursor: pointer;
+    margin-left: 15px;
+    height: 37px;
+    border-radius: 18px;
+}
+
+#video {
+    margin-left: 600px;
+    height: 28px;
+    cursor: pointer;
+}
+
+#app {
+    margin-left: 20px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#noti {
+    margin-left: 15px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.left {
+    /* display: flex; */
+   color: white;
+  
+}
+
+.box {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    height: 100%;
+    width: 260px;
+    background-color: rgb(50, 50, 50);
+    
+}
+.box div{
+    height: 30px;
+     margin: 10px;
+}
+
+#home {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border: 1px solid grey;
+    background-color: grey;
+}
+#explore {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+#short {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+#library {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+#history {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+#your {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+#watch {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+#show {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.mid {
+    position: absolute;
+    top: 60px;
+    left: 242px;
+    height: 60px;
+    width: 100%;
+    margin: 20px;
+    border: 1px solid rgb(76, 76, 76);
+    background-color: rgb(31, 31, 31);
+    color: beige;
+}
+
+#box2 {
+    margin-left: 30px;
+    display: flex;
+}
+
+#all {
+    color: rgb(27, 27, 27);
+    border: 2px solid rgb(69, 69, 69) !important;
+    background-color: white !important;
+}
+
+#box2 div{
+    margin: 15px;
+    font-size: 1em;
+    border: 1px solid grey;
+    border-radius: 17px;
+    background-color: rgb(65, 65, 65);
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+
+#next {
+    margin-left: 30px !important;
+    border: rgb(31, 31, 31) !important;
+    background: rgb(31, 31, 31) !important;
+    
+}
+
+.center {
+    position: absolute;
+    top: 143px;
+    left: 260px;
+    height: 100%;
+    width: 100%;
+    border: 2px solid rgb(18, 18, 18);
+    background-color: rgb(18, 18, 18);
+}
+.id {
+    color: rgb(192, 192, 192);
+    text-align: center;
+    font-size: 1.2em;
+}
+.box3 {
+    margin: 20px;
+    height: 30px;
+    
+}
+.box img {
+    height: 30px;
+    width: 30px;
+    border-radius: 18px;
+
+}
+
+#minute {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+#star {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+#sony {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+#fit {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+#harry {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+#colors {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+#cake {
+    display: flex;
+    flex-direction: row;
+   
+}
+#show {
+    display: flex;
+    flex-direction: row;
+}
+
+/* CENTER PART */
+
+.row1{
+    display: flex;
+    color: white;
+    margin-left: 350px;
+}
+.row1 img {
+    display: flex;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#special {
+    height: 200px !important;
+    width: 400px !important;
+}
+
+#name2 {
+    margin-left: 30px;
+    color: grey;
+    font-size: 18px;
+}
+#views {
+    margin-left: 30px;
+    color: grey;
+    font-size: 18px;
+}
+
+.row2 {
+    display: flex;
+    color: white;
+    margin-left: 60px;
+}
+
+.row2 img {
+    display: flex;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.log img {
+    height: 33px;
+    width: 33px;
+    border-radius: 20px;
+}
+.log {
+    display: flex;
+    flex-direction: row;
+}
+.log div{
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.box4{
+    height: 4px;
+    width: 1500px;
+    margin: 50px;
+    margin-left: 60px;
+    background-color: rgb(57, 56, 56);
+    
+
+}
+
+
+
+
