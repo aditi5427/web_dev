@@ -1,0 +1,322 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    display: flex;
+    margin: 90px 160px;
+}
+
+.navbar div {
+    margin-left: 120px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 580;
+    cursor: pointer;
+}
+
+.box {
+    position: absolute;
+    top: 0px;
+    right: 290px;
+    height: 750px;
+    width: 490px;
+    z-index: -1;
+    background-color: rgba(115, 184, 47, 0.9);
+
+}
+
+#profilePic {
+    position: absolute;
+    top: 320px;
+    right: 130px;
+    height: 560px;
+}
+
+.about {
+    margin-top: 200px;
+    width: 570px;
+    margin-left: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.name {
+    font-size: 4.5em !important;
+    font-weight: bold;
+}
+
+.about div {
+    font-size: 20px;
+    margin: 20px 0px;
+    font-weight: 550;
+}
+
+.talk {
+    margin-top: 40px !important;
+    color: white;
+    width: 150px;
+    padding: 20px 15px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(115, 184, 47, 0.9);
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main {
+    display: flex;
+    margin-top: 200px;
+    background: url(bg.png);
+    width: 350px;
+    height: 300px;
+}
+
+.hustle div {
+    margin-left: 90px;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-left: 400px;
+}
+
+.about2 div {
+    font-size: 25px;
+    width: 700px !important;
+}
+
+#month {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(115, 184, 47, 0.9);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#school {
+    font-weight: 550;
+    margin: 8px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#academic {
+    font-size: 23px;
+    /* margin-top: 10px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+#work {
+    margin: 80px 0px;
+    font-size: 5em;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#code {
+    margin-left: 500px;
+    font-size: 25px;
+    width: 900px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.image {
+    display: flex;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+
+.img {
+    margin-left: 250px;
+}
+
+.img img {
+    width: 180px;
+}
+
+.name1 {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.name2 {
+    width: 280px;
+    font-size: 20px;
+    margin: 10px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+.name3 {
+    color: rgba(115, 184, 47, 0.9);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.image2 {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.text1 {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+    display: flex;
+}
+
+.part1 {
+    width: 350px;
+}
+
+.part2 {
+    margin-left: 120px;
+    width: 350px;
+}
+
+.text2 {
+    display: flex;
+    margin-left: 150px;
+    margin: 100px 150px;
+}
+
+.text3 {
+    margin-left: 150px;
+    width: 350px;
+}
+
+.box1 {
+    height: 4px;
+    width: 35px;
+    background: rgba(115, 184, 47, 0.9);
+}
+
+.box2 {
+    height: 4px;
+    width: 35px;
+    background: rgba(115, 184, 47, 0.9);
+}
+
+.box3 {
+    padding-top: 30px;
+    margin-top: 100px;
+    margin-left: 220px;
+    background: rgba(115, 184, 47, 0.9);
+    height: 450px;
+    width: 550px;
+}
+
+.box3 div{
+    margin-left: 70px; 
+    color: white;
+    font-size: 6em;
+    font-weight: bold;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box4 {
+    margin-top: 350px;
+    margin-left: 150px;
+}
+.side {
+    font-size: 6em;
+    width: 250px;
+    color: rgba(115, 184, 47, 0.9);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.free {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 550;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box4{
+    display: flex;
+}
+.box6 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+}
+
+.box7 {
+    display: flex;
+    flex-direction: column;
+}
+.box8 {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#guiter {
+    margin-top: 40px;
+}
+
+#friend {
+    height: 300px;
+    width: 330px;
+}
+
+/* last past */
+.contact {
+    display: flex;
+    width: 650px;
+    height: 260px;
+    background-color: rgba(115, 184, 47, 0.9);
+    color: white;
+    padding-top: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contact img {
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.contact div {
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+    margin-left: 120px;
+    
+}
+.gmail {
+    font-size: 20px !important;
+    margin-top: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 500 !important;
+}
+.insta {
+    height: 25px;
+    margin-left: 120px;
+    margin-right: 5px;
+}
+.reserve {
+    font-size: 20px;
+    text-align: right;
+    margin-right: 80px;
+
+}
