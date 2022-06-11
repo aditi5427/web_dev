@@ -142,6 +142,61 @@ body {
     width: 180px;
 }
 
+.item1 {
+    position: absolute;
+    top: 1620px;
+    left: 330px;
+    height: 45px;
+    width: 30px;
+    background-color: rgba(115, 184, 47);
+
+}
+
+.item2 {
+    position: absolute;
+    top: 1620px;
+    left: 860px;
+    height: 45px;
+    width: 30px;
+    background-color: rgba(115, 184, 47);
+
+}
+
+.item3 {
+    position: absolute;
+    top: 1620px;
+    left: 1390px;
+    height: 45px;
+    width: 30px;
+    background-color: rgba(115, 184, 47);
+}
+
+.item4 {
+    position: absolute;
+    top: 2010px;
+    left: 330px;
+    height: 45px;
+    width: 30px;
+    background-color: rgba(115, 184, 47);
+}
+.item5{
+    position: absolute;
+    top: 2010px;
+    left: 860px;
+    height: 45px;
+    width: 30px;
+    background-color: rgba(115, 184, 47);
+}
+
+.item6 {
+    position: absolute;
+    top: 2010px;
+    left: 1390px;
+    height: 45px;
+    width: 30px;
+    background-color: rgba(115, 184, 47);
+}
+
 .name1 {
     font-size: 26px;
     font-weight: bold;
@@ -281,7 +336,6 @@ body {
 
 /* last past */
 .contact {
-    display: flex;
     width: 650px;
     height: 260px;
     background-color: rgba(115, 184, 47, 0.9);
