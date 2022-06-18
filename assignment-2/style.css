@@ -1,0 +1,121 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(bg.jpg);
+    height: 100%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.name {
+    margin-top: 100px;
+    margin-left: 470px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 5em;
+    font-weight: bolder;
+    width: 400px;
+
+}
+
+.name1 {
+    margin-left: 460px;
+    color: rgb(211, 82, 82);
+    font-size: 5em;
+    width: 500px;
+    font-weight: bolder;
+}
+
+.box {
+    background: white;
+    margin: 0px 100px;
+    margin-top: 100px;
+    height: 100%;
+    width: 1000;
+    color: white;
+}
+
+.nav {
+    background-color: rgb(82, 82, 82);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    margin: 20px 10px;
+    font-weight: bold;
+}
+
+.navbar div {
+    margin-left: 20px;
+}
+
+.image {
+
+    display: flex;
+    width: 35px;
+    height: 40px;
+    margin-right: 100px;
+
+}
+
+.image img {
+    background-color: rgb(82, 82, 82);
+    margin-left: 10px;
+}
+
+.date {
+    color: black;
+    margin: 80px 0px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 550;
+}
+
+.text {
+    margin-top: 70px;
+    margin-left: 380px;
+    font-size: 4.5em;
+    font-weight: bolder;
+    color: black;
+    width: 600px;
+}
+
+.text2 {
+    margin-top: 30px;
+    margin-left: 340px;
+    text-align: center;
+    color: black;
+    width: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text1 {
+    margin-left: 300px;
+    font-size: 4.5em;
+    font-weight: bolder;
+    color: black;
+    width: 600px;
+}
+
+.box2 {
+    margin-top: 150px;
+    margin-left: 170px;
+}
+
+.box2 img {
+    height: 400px;
+    width: 800px;
+}
+
+.box2 div {
+    border: 2px solid rgb(80, 80, 80);
+    padding: 10px 40px;
+    color: black;
+    margin:50px 330px;
+    width: 75px;
+    font-size: 18px;
+    font-weight: bold;
+}
