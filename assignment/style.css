@@ -2,9 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1188px;
-    height: 80px;
-    margin-top: 70px;
+    /* width: 1188px; */
+    /* height: 80px; */
     margin-left: 10px;
     border: 1px solid rgb(213, 192, 155);
     border-radius: 10px;
@@ -12,7 +11,7 @@
 
 .text {
     display: flex;
-    margin: 30px;
+    margin: 20px;
 }
 
 .line {
@@ -32,7 +31,7 @@ span {
 .box2 {
     display: flex;
     align-items: center;
-    margin: 20px;
+    margin: 15px;
 }
 
 .box2 div {
@@ -56,16 +55,16 @@ span {
 
 .box3 {
     border: 1px solid rgb(229, 208, 168);
-    width: 344px;
-    height: 360px;
+    /* width: 344px; */
+    height: 307px;
     margin-top: 10px;
     border-radius: 8px;
 }
 
 .box4 {
     border: 1px solid rgb(229, 208, 168);
-    width: 344px;
-    height: 276px;
+   /*  width: 344px;*/
+    height: 240px; 
     margin-top: 10px;
     border-radius: 8px;
 }
@@ -73,8 +72,8 @@ span {
 
 .below3 {
     border: 1px solid rgb(229, 208, 168);
-    width: 355px;
-    height: 649px;
+    /* width: 355px;
+    height: 649px; */
     margin-top: 10px;
     border-radius: 8px;
 }
@@ -97,16 +96,16 @@ span {
 }
 
 #hi {
-    margin: 10px 30px;
+    margin:5px 30px;
 }
 
 #navy {
     margin: 10px;
-    margin-left: 153px;
+    margin-left: 193px;
 }
 
 #officer {
-    margin: 8px 30px;
+    margin: 5px 30px;
     font-weight: 550;
     font-size: 18px;
 }
@@ -230,7 +229,7 @@ span {
 }
 .remainder {
     height: 40px;
-    margin-top: 140px;
+    margin-top: 85px;
     width: 300px;
     margin-left: 30px;
     border: 1px solid rgb(205, 205, 205);
@@ -249,11 +248,11 @@ span {
     margin: 0px 30px;
     width: 50px;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 #crew {
-    margin: 5px 30px;
+    margin: 0px 30px;
     font-size: 15px;
     font-weight: 550;
 
@@ -261,20 +260,20 @@ span {
 
 .box9 {
     height: 1px;
-    width: 290px;
+    width: 310px;
     background-color: rgb(230, 214, 184);
-    margin: 20px 30px;
+    margin: 10px 30px;
 }
 
 .last {
     margin: 0px 30px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 550;
 }
 
 .time {
     width: 250px;
-    margin: 10px 30px;
+    margin: 8px 30px;
     color: #5D6F88;
     font-size: 18px;
 }
@@ -286,12 +285,12 @@ span {
 
 .box11 {
     display: flex;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 20px;
 }
 
 #pop {
-    margin-left: 120px;
+    margin-left: 160px;
     font-size: 20px;
     font-weight: 550;
 }
@@ -318,7 +317,7 @@ span {
     height: 1px;
     width: 312px;
     background-color: rgb(239, 214, 169);
-    margin: 30px;
+    margin:15px 30px;
    
 }
 
@@ -333,19 +332,18 @@ span {
 .box12 {
     display: flex;
     justify-content: space-between;
-    margin: 10px 36px;
+    margin: 0px 36px;
     color: #5A5B6A;
     font-size: 17px;
 }
 
 .box5 {
     border: 1px solid rgb(229, 208, 168);
-    width: 400px;
-    height: 609px;
-    margin: 10px;
+    margin-top: 10px !important;
+    margin: 0px 10px;
     border-radius: 8px;
     background-color: rgba(243, 239, 246, 0.8);
-    padding: 20px 30px;
+    padding: 18px 15px;
 }
 
 #ahoy {
@@ -362,11 +360,11 @@ span {
 
 .cont {
     width: 360px;
-    height: 102px;
+    /* height: 102px; */
     background: #FFFAEC;
     margin-top: 15px;
     border-radius: 8px;
-    padding: 20px;
+    padding: 10px;
 }
 
 #notice {
@@ -376,30 +374,29 @@ span {
 }
 
 #order {
-    margin-top: 8px;
+    margin: 8px 5px;
     font-size: 20px;
 }
 
 .read {
-    margin-left: 270px;
+    margin-left: 260px;
     background-color: rgb(231, 103, 64);
     color: white;
-    padding: 5px 20px;
-    width: 50px;
+    padding: 5px 15px;
+    min-width:fit-content;
     border-radius: 13px;
     text-align: center;
 }
 
 .cont2 {
     margin-top: 10px;
-    width: 340px;
-    height: 103px;
+    width: 320px;
+      height: 80px;
     background: #fefefe;
-    margin-top: 15px;
+    margin-top: 10px;
     border-radius: 8px;
     padding: 30px !important;
     color: rgb(108, 108, 108);
-    padding: 10px;
     font-size: 18px;
 }
 
@@ -409,7 +406,7 @@ span {
 }
 
 #time {
-    margin-top: 37px;
+    margin-top: 15px;
     color: #213838;
     text-align: right;
     font-size: 13px;
@@ -419,8 +416,8 @@ span {
 .cont3 {
     margin-top: 10px;
     background-color: white;
-    width: 400px;
-    height: 200px;
+    width: 380px;
+    height: 50px;
     border-radius: 8px;
 }
 

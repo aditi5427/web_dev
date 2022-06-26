@@ -8,12 +8,19 @@ body {
 .content {
     margin-top: 59px;
     display: flex;
+    width: 100%;
 }
 
 .leftSideBar {
     color: white;
-    width:250px;
+    width: 250px;
     background-color: rgb(65, 65, 65);
+    overflow-y: auto;
+    height: 90vh;
+}
+
+.leftSideBar::-webkit-scrollbar {
+    display: none;
 }
 
 .leftSideBarItems {
@@ -21,7 +28,6 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
-   
 }
 
 .leftSideBarItems img {
@@ -38,23 +44,35 @@ body {
 
 .leftSideBarItems yt-icon {
     width: 30px;
-    margin-left: 20px;
-   
+    margin-left: 20px; 
 }
+
 .right {
-    width: 100%;
+    max-width: calc(100% - 250px);
+    overflow-x: auto;
 }
+
+.right::-webkit-scrollbar {
+    display: none;
+}
+
 .option {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100%;
+    /* justify-content: center; */
     height: 60px;
     background: rgb(47, 47, 47);
     border: 1px solid grey;
-    
+    max-width: 100%;
+    overflow-x: auto;
 }
+
+.option::-webkit-scrollbar {
+    display: none;
+}
+
 .option div {
+    min-width: fit-content !important;
     border: 1px solid rgb(51, 51, 51);
     background-color: rgb(100, 100, 100);
     border-radius: 20px;
@@ -63,21 +81,31 @@ body {
     font-size: 18px;
     color: white;
 }
-.center {
-    margin-left: 440px;
+
+.videos {
     margin-top: 20px;
     color: white;
     display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    flex-wrap: wrap;
+    max-height: 77vh;
+    overflow-y: scroll;
+}
+.videos::-webkit-scrollbar {
+    display: none;
+}
+
+
+.post {
+    width: 24%;
 }
 
 .post img {
-   width: 370px;
-   display: flex;
-   
+    width: 100%;
+    display: flex;
 }
-.post {
-    margin-left: 25px;
-}
+
 
 .channelLogo {
     margin: 10px 10px;
