@@ -1,0 +1,135 @@
+body {
+    background: rgb(34, 34, 34);
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    color: rgb(184, 123, 207);
+    align-items: center;
+    justify-content: center;
+    background: rgb(91, 91, 122, 0.8);
+    width: 100%;
+}
+
+.navbar div {
+    margin: 20px 40px;
+    font-size: 23px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.option {
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    background: rgb(218, 236, 235);
+    width: 100%;
+}
+
+.option::-webkit-scrollbar {
+    display: none;
+}
+
+#easy {
+    background: rgb(237, 238, 243);
+    font-weight: 550;
+    color: rgb(80, 80, 80);
+}
+
+.option div {
+    color: rgb(83, 158, 73);
+    font-size: 20px;
+    margin: 15px 25px;
+    padding: 3px 10px;
+    border: 1px solid rgb(62, 142, 153);
+    border-radius: 15px;
+    min-width: fit-content;
+}
+
+.main {
+    display: flex;
+    margin: 120px 30px;
+
+}
+
+#me {
+    height: 300px;
+    margin-left: 220px;
+    border-radius: 100%;
+    border: 1px solid rgb(133, 133, 133);
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+#lorem {
+    font-size: 15px;
+    width: 650px;
+}
+
+.art {
+    font-size: 4.4em !important;
+    color: rgb(219, 219, 154);
+    font-weight: bold;
+}
+
+.line div {
+    font-size: 20px;
+    margin-left: 180px !important;
+    margin: 10px 0px;
+}
+
+.drawing {
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    text-shadow: 3px 3px 7px grey;
+}
+
+.painting {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.painting img {
+    height: 300px;
+    width: 220px !important;
+    margin-top: 70px;
+    margin-left: 80px;
+    border-radius: 20px;
+}
+
+.paint div {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-left: 90px;
+    font-size: 1.5em;
+    color: rgb(219, 100, 64);
+}
+
+hr {
+    margin: 50px 70px;
+}
+
+#thanks {
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+    color: rgb(237, 240, 66);
+    margin-bottom: 70px;
+}
