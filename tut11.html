@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.write("constructer <br><br>")
+
+        function person (name, age) {
+            this.name = name;
+            this.age = age;
+        }
+
+        var aditi = new person("<br> aditi <br>", 21);
+        var aman = new person ("<br> aman <br>", 19);
+
+        document.write(aditi.name);
+        document.write(aditi.age);
+        document.write(aman.name);
+        document.write(aman.age);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
