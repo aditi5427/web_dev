@@ -1,0 +1,404 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: whitesmoke;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-y: auto;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.main {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    background: rgba(228, 139, 194, 0.3);
+    border: 1px solid rgb(252, 252, 252);
+    margin: 10px;
+    border-radius: 5px;
+    width: 100px;
+    max-height: 100%;
+    align-items: center;
+}
+
+.left img {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.profile {
+    background: rgba(228, 139, 194, 0.1);
+    max-height: 97vh;
+    margin: 10px 0px;
+    overflow-y: auto;
+    border: 1px solid rgb(247, 247, 247);
+    border-radius: 5px;
+}
+
+.profile::-webkit-scrollbar {
+    display: none;
+}
+
+.profile input {
+    width: 260px;
+    margin: 20px 30px;
+    border-radius: 4px;
+    background: rgb(252, 230, 230);
+    color: black;
+    border: 1px solid rgb(165, 165, 165);
+    height: 25px;
+}
+
+.profileImage {
+    display: flex;
+    background: rgb(241, 187, 187);
+    margin: 0px 30px;
+    border-radius: 15px;
+}
+
+.profileImage img {
+    margin: 20px 15px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.active {
+    margin: 20px 0px;
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+}
+
+#name {
+    font-weight: 550;
+    font-size: 20px;
+}
+
+#point {
+    margin-top: 20px;
+    margin-left: 50px !important;
+    height: 20px;
+}
+
+.profileChild {
+    display: flex;
+    margin: 20px 30px;
+}
+
+.profileChild img {
+    height: 20px;
+}
+
+.profileChild div {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+#no {
+    background: rgb(243, 64, 103);
+    border-radius: 8px;
+    padding: 1px 6px;
+    justify-content: end;
+    color: white;
+    font-size: 15px;
+}
+
+#channel {
+    margin: 30px 30px;
+    color: rgb(255, 19, 19);
+    font-weight: 550;
+
+}
+
+.profileChildDesign {
+    margin: 10px 30px;
+    display: flex;
+    align-items: center;
+    background: rgb(241, 187, 187);
+    border-radius: 5px;
+    padding: 8px 5px;
+}
+
+.profileChildDesign div {
+    margin-left: 20px;
+}
+
+.profileChildDesign img {
+    height: 20px;
+}
+
+.design {
+    border: 1px solid rgb(248, 248, 248);
+    background: rgba(228, 139, 194, 0.1);
+    border-radius: 8px;
+    max-height: 100%;
+    margin: 10px;
+
+}
+
+.support {
+    display: flex;
+    align-items: center;
+    background: rgb(43, 131, 158);
+}
+
+.support img {
+    height: 20px;
+    margin: 0px 10px;
+}
+
+.support div {
+    color: aliceblue;
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+.support input {
+    border: 1px solid rgb(158, 158, 158);
+    background: rgb(240, 238, 238);
+    color: rgb(73, 73, 73);
+    height: 20px;
+    width: 230px;
+    margin: 13px;
+}
+
+#girl {
+    margin: 0px 2px;
+    border-radius: 6px;
+    height: 25px;
+}
+
+#num {
+    background: rgb(121, 149, 168);
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin: 0px 8px;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 60px;
+}
+
+.chat div {
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px 8px;
+    font-size: 15px;
+    max-width: fit-content;
+}
+
+.aditi img {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.aditi {
+    display: flex;
+    margin: 8px 20px;
+}
+
+#name {
+    color: rgb(78, 78, 78);
+    margin-left: 10px;
+}
+
+.line span {
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+}
+
+.line div {
+    margin: 5px 10px;
+    border-radius: 10px;
+    padding: 5px 8px;
+    font-size: 15px;
+    /* max-width: fit-content; */
+}
+
+.you {
+    display: flex;
+    justify-content: right;
+    margin: 6px 20px;
+}
+
+.you img {
+    border-radius: 6px;
+    height: 35px;
+    width: 35px;
+}
+
+.line2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.line2 div {
+    margin: 5px 10px;
+    border-radius: 10px;
+    padding: 5px 8px;
+    font-size: 15px;
+    /* max-width: fit-content; */
+}
+
+#name2 {
+    color: rgb(78, 78, 78);
+    margin-left: 140px;
+    border: white;
+    font-weight: 550;
+    font-size: 13px;
+}
+
+.you span {
+    font-size: 18px;
+    font-weight: 550;
+    margin-left: 10px;
+}
+
+#color {
+    background: rgb(243, 64, 103);
+    color: white;
+}
+
+#color1 {
+    background: rgb(212, 50, 233);
+    color: white;
+}
+
+#text {
+    margin-top: 75px !important;
+    width: 520px;
+    height: 26px;
+    margin: 0px 20px;
+    border: 1px solid rgb(185, 103, 103);
+    background: rgb(248, 219, 213);
+}
+
+.details {
+    background: rgba(228, 139, 194, 0.1);
+    color: rgb(19, 19, 19);
+    margin: 10px 0px;
+
+}
+
+#chann {
+    display: flex;
+    align-items: center;
+    background-color: rgb(236, 163, 188);
+    margin: 15px 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#chann div {
+    font-weight: 550;
+    color: white;
+    
+}
+
+#chann img {
+    height: 20px; 
+    margin-left: 70px;
+
+}
+
+#media div {
+    margin: 0px 25px;
+    color:  rgb(58, 167, 25);
+    font-weight: 550;
+} 
+
+#media span {
+    font-size: 10px;
+    margin-left: 8px;
+    color:  rgb(58, 167, 25);
+    font-weight: 550;
+}
+
+#image {
+    display: flex;
+    flex-wrap: wrap;
+    width: 36vh;
+    margin: 20px 35px !important;
+   
+}
+
+#image img {
+    margin: 6px 10px;
+    width: 100px;
+    height: 100px;
+}
+
+#number {
+    padding-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px !important;
+    margin-top: 8px;
+    height: 60px;
+    width: 100px;
+    background: rgb(167, 167, 167);
+    color: white !important;
+}
+
+.file {
+    display: flex;
+    margin: 10px 20px;
+    align-items: center;
+}
+
+#link {
+    color: rgb(58, 167, 25);
+    font-size: 18px;
+   
+}
+
+.file div {
+    font-size: 10px;
+    margin: 0px 5px;
+    color: rgb(61, 153, 19);
+    font-weight: 550;
+}
+
+.send {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 25px;
+}
+
+.line {
+    color: brown !important;
+    font-size: 16px !important;
+}
+
+.send div {
+    font-size: 9px;
+    color: rgb(243, 134, 134);
+    font-weight: 550;
+}
+
+#bts {
+    margin: 10px 25px;
+    color: beige;
+    font-size: 10px;
+    font-weight: 550;
+    padding: 8px 10px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 10px;
+    border: 1px solid rgb(97, 97, 97);
+}
