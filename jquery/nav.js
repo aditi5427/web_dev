@@ -22,4 +22,12 @@ $('.option-2').hover(function () {
    }
 });
 
+$(document).ready(function () {
+   $('.hide').click(function () {
+      //alert('jsskdsf');
+      $('.js').toggle();
+   });
+
+});
+
 
