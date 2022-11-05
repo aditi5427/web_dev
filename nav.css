@@ -90,5 +90,24 @@ body {
     font-size: 35px;
     color: antiquewhite;
     text-align: center;
-    margin: 40px 0px;
+    margin: 20px 0px;
+}
+
+.js {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pokemon {
+    height: 250px;
+    width: 300px;
+}
+
+.hide {
+    background:  rgb(14, 23, 83);
+    margin-left: 45%;
+    padding: 5px 15px;
+    color: white;
+    font-weight: 600;
 }
