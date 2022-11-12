@@ -1,0 +1,82 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: rgb(48, 48, 48);
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    background: rgb(35, 16, 44);
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.navFirstChild {
+    margin-left: 20px;
+    font-size: 25px;
+    color: rgb(187, 240, 222);
+}
+
+.navChild {
+    display: flex;
+    font-size: 23px;
+}
+
+.navChild div {
+    margin: 0px 30px;
+}
+
+.navChild div a {
+    color: rgb(250, 241, 225);
+    text-decoration: none;
+}
+
+.navChild div:hover {
+    font-size: 25px;
+    color: rgb(204, 235, 178);
+    text-shadow: 0px 3px 3px rgb(238, 128, 128);
+    text-decoration: underline;
+}
+
+.text {
+    margin-top: 40px;
+    margin-left: 70px;
+    font-size: 65px;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.youtube div {
+    margin:10px 70px;
+}
+
+.youtube img {
+    height: 350px;
+    margin-top: 45px;
+    margin-left:70px;  
+}
+
+.youtube input{
+    padding: 7px 60px !important;
+    color: rgb(241, 232, 232);
+    background: rgb(52, 116, 180);
+    font-weight: bold;
+    border-radius: 6px;
+    border: 1px solid rgb(51, 50, 51);
+    font-size: 25px;
+}
+
+.youtube input:hover {
+    color: rgb(241, 232, 232);
+    background: rgb(45, 189, 93);
+}
