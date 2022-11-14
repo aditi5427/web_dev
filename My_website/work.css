@@ -33,15 +33,13 @@ body {
 }
 
 .navChild div a {
-    color: rgb(250, 241, 225);
+    color: white;
+    font-weight: 530;
     text-decoration: none;
 }
 
-.navChild div:hover {
-    font-size: 25px;
-    color: rgb(204, 235, 178);
-    text-shadow: 0px 3px 3px rgb(238, 128, 128);
-    text-decoration: underline;
+.navChild div a:hover {
+    color: rgb(188, 188, 189);
 }
 
 .text {
@@ -50,10 +48,20 @@ body {
     font-size: 65px;
 }
 
+.text div {
+    margin-top: 7px;
+    font-size: 22px;
+}
+
 .work {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: 50px auto;
+    background: rgb(54, 54, 54);
+    border-radius: 7px;
 }
 
 .youtube div {
@@ -62,8 +70,7 @@ body {
 
 .youtube img {
     height: 350px;
-    margin-top: 45px;
-    margin-left:70px;  
+    margin-top: 55px;
 }
 
 .youtube input{

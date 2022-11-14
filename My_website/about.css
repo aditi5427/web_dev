@@ -33,15 +33,13 @@ body {
 }
 
 .navChild div a {
-    color: rgb(250, 241, 225);
+    color: white;
+    font-weight: 530;
     text-decoration: none;
 }
 
-.navChild div:hover {
-    font-size: 25px;
-    color: rgb(204, 235, 178);
-    text-shadow: 0px 3px 3px rgb(238, 128, 128);
-    text-decoration: underline;
+.navChild div a:hover {
+    color: rgb(188, 188, 189);
 }
 
 .about {
@@ -84,7 +82,9 @@ hr {
 }
 
 .fav {
-    margin: 60px;
+    margin: 60px 100px;
+    background: rgb(85, 84, 84);
+    
 }
 
 .fav div {
@@ -97,13 +97,13 @@ hr {
 
 .drawing {
     display: flex;
-    margin: 50px 110px;
+    justify-content: center;
 }
 
 .drawing img {
-    margin: 0px 50px;
-    height: 350px;
-    width: 280px;
+    height: 340px;
+    /* width: 250px; */
+    margin: 60px 30px;
     border-radius: 6px;
 
 }
