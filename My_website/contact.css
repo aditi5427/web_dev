@@ -1,0 +1,161 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: rgb(48, 47, 47);
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    background: rgb(35, 16, 44);
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.navFirstChild {
+    margin-left: 20px;
+    font-size: 25px;
+    color: rgb(187, 240, 222);
+}
+
+.navChild {
+    display: flex;
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navChild div {
+    margin: 0px 30px;
+}
+
+.navChild div a {
+    color: white;
+    font-weight: 530;
+    text-decoration: none;
+}
+
+.navChild div a:hover {
+    color: rgb(188, 188, 189);
+}
+
+.main {
+    display: flex;
+    margin: 30px;
+    background: rgb(231, 164, 164);
+}
+
+.part {
+    background: rgb(238, 157, 157);
+}
+
+.left {
+     margin: 170px;
+}
+
+.left a {
+    color: white;
+    text-decoration: none; 
+    font-size: 19px;
+    margin-left: 20px;
+}
+
+#contact {
+    color: rgb(185, 14, 143);
+    font-size: 47px;
+    margin-bottom: 40px;
+    font-weight: 550;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    padding: 10px 24px;
+    margin-bottom: 20px;
+}
+
+.social img {
+    height: 18px ;
+}
+
+.social:hover {
+    width: fit-content;
+    border: 2px solid grey;
+    padding: 8px 22px;
+    border-radius: 4px;
+}
+
+.github {
+    display: flex;
+    align-items: center;
+    padding: 8px 24px; 
+    margin-left: -3px;
+    margin-bottom: 20px;
+}
+
+.github img {
+    height: 31px;
+   
+}
+
+.github:hover {
+    width: fit-content;
+    border: 2px solid grey;
+    padding: 6px 22px;
+    border-radius: 4px;
+}
+
+.right {
+    background-color: rgb(243, 204, 247);
+    height: 430px;
+    width: 350px;
+    margin-top: 90px;
+    margin-left: 250px;
+    border-radius: 5px;
+}
+
+#name {
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.right div {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(121, 8, 121);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.right input {
+    margin-left: 40px;
+    margin-bottom: 10px;
+    width: 40vh;
+    height: 20px;
+    border: 1px solid rgb(156, 156, 156);
+    background: rgb(247, 227, 247);
+    border-radius: 2px;
+}
+
+#message {
+    height: 150px; 
+    border-radius: 2px; 
+    background: rgb(253, 236, 252);
+}
+
+button {
+    margin-left: 226px;
+    padding: 5px 20px;
+    font-size: 18px;
+    color: purple;
+    border: 2px solid rgb(173, 12, 173);
+    border-radius: 5px;
+}
+
+button:hover {
+    color: white;
+    background: rgb(173, 12, 173);
+}
