@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: rgb(48, 47, 47);
+    background:  rgb(66, 66, 66);
     color: white;
 }
 
@@ -11,7 +11,7 @@ body {
     align-items: center;
     color: white;
     padding: 20px;
-    background: rgb(35, 16, 44);
+    background:  rgb(94, 54, 112);
     opacity: 0.8;
     z-index: 1;
 }
@@ -44,16 +44,17 @@ body {
 
 .main {
     display: flex;
-    margin: 30px;
-    background: rgb(231, 164, 164);
+    height: 70vh;
+    margin: 50px 100px;
+    border-radius: 9px;
+    background: rgba(241, 177, 177, 0.6);
+    
 }
 
-.part {
-    background: rgb(238, 157, 157);
-}
 
 .left {
-     margin: 170px;
+    margin-top: 90px;
+    margin-left: 200px;
 }
 
 .left a {
@@ -64,17 +65,18 @@ body {
 }
 
 #contact {
-    color: rgb(185, 14, 143);
+    color: rgb(250, 242, 248);
     font-size: 47px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-weight: 550;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .social {
     display: flex;
     align-items: center;
     padding: 10px 24px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .social img {
@@ -83,9 +85,10 @@ body {
 
 .social:hover {
     width: fit-content;
-    border: 2px solid grey;
+    border: 2px solid rgb(71, 70, 70);
     padding: 8px 22px;
     border-radius: 4px;
+    background-color: rgb(126, 112, 139);
 }
 
 .github {
@@ -93,7 +96,7 @@ body {
     align-items: center;
     padding: 8px 24px; 
     margin-left: -3px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .github img {
@@ -103,17 +106,19 @@ body {
 
 .github:hover {
     width: fit-content;
-    border: 2px solid grey;
+    border: 2px solid rgb(70, 70, 70);
     padding: 6px 22px;
     border-radius: 4px;
+    background-color: rgb(126, 112, 139);
 }
 
 .right {
+    display: block;
     background-color: rgb(243, 204, 247);
     height: 430px;
     width: 350px;
-    margin-top: 90px;
-    margin-left: 250px;
+    margin-top: 70px;
+    margin-left: 240px;
     border-radius: 5px;
 }
 
@@ -133,7 +138,7 @@ body {
 .right input {
     margin-left: 40px;
     margin-bottom: 10px;
-    width: 40vh;
+    width: calc(100% - 80px);
     height: 20px;
     border: 1px solid rgb(156, 156, 156);
     background: rgb(247, 227, 247);

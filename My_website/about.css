@@ -1,8 +1,13 @@
 body {
     padding: 0;
     margin: 0;
-    background: rgb(48, 47, 47);
+    background:  rgb(66, 66, 66);
     color: white;
+    overflow-y: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .nav {
@@ -11,7 +16,7 @@ body {
     align-items: center;
     color: white;
     padding: 20px;
-    background: rgb(35, 16, 44);
+    background: rgb(94, 54, 112);
     opacity: 0.8;
     z-index: 1;
 }

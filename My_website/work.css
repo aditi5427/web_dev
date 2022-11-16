@@ -1,9 +1,14 @@
 body {
     padding: 0;
     margin: 0;
-    background: rgb(48, 48, 48);
+    background: rgb(66, 66, 66);
     color: white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow-y: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .nav {
@@ -12,7 +17,7 @@ body {
     align-items: center;
     color: white;
     padding: 20px;
-    background: rgb(35, 16, 44);
+    background:  rgb(94, 54, 112);
     opacity: 0.8;
     z-index: 1;
 }
@@ -42,6 +47,27 @@ body {
     color: rgb(188, 188, 189);
 }
 
+.box {
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    height: 130px;
+    background: rgb(53, 161, 107);
+    width: 240px;
+    z-index: -1;
+}
+
+.diba {
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    background: rgb(182, 98, 98);
+    z-index: -1;
+    height: 140px;
+    width: 240px;
+
+}
+
 .text {
     margin-top: 40px;
     margin-left: 70px;
@@ -59,8 +85,8 @@ body {
     align-items: center;
     justify-content: center;
     width: 70%;
-    margin: 50px auto;
-    background: rgb(54, 54, 54);
+    margin: 70px auto;
+    background: rgb(88, 88, 88);
     border-radius: 7px;
 }
 
